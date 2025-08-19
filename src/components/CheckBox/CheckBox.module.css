@@ -1,0 +1,25 @@
+.checkbox {
+   display: flex;
+   gap: 0.5rem;
+   justify-content: center;
+   align-items: center;
+}
+
+.checkbox__label {
+   font-size: var(--font-size-xs);
+}
+
+@media screen and (min-width: 768px) {
+   .checkbox {
+      gap: 1.2rem;
+   }
+
+   .checkbox__input {
+      width: 1.5rem;
+      height: 1.5rem;
+   }
+
+   .checkbox__label {
+      font-size: var(--font-size-md);
+   }
+}

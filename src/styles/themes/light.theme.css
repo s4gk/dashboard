@@ -1,0 +1,8 @@
+[data-theme='light'] {
+   --bg: var(--color-background-light);
+   --text: var(--text-light);
+   --foreground: var(--foreground-light);
+   --button: var(--element-light);
+   --text-button: var(--text-button-light);
+   --text-header-login: var(--text-header-login);
+}

@@ -1,0 +1,17 @@
+.button {
+   width: 100%;
+   background-color: var(--button);
+   color: var(--text-button);
+   padding: 0.7rem 0;
+   border: none;
+   border-radius: 0.4rem;
+   font-size: var(--font-size-md);
+   font-weight: var(--font-weight-semibold);
+}
+
+@media screen and (min-width: 768px) {
+   .button {
+      padding: 0.8rem 0;
+      font-size: var(--font-size-md);
+   }
+}

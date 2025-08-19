@@ -1,0 +1,67 @@
+@import './tokens/colors.token.css';
+@import './tokens/typography.token.css';
+@import './themes/light.theme.css';
+@import './themes/dark.theme.css';
+
+/* Resets o estilos base */
+body {
+   background-color: var(--bg);
+   color: var(--text);
+   font-family: var(--font-family-primary);
+   transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Evita problemas con los inputs y botones heredando fuente */
+input,
+button,
+textarea,
+select {
+   font: inherit;
+}
+
+/* Quita los estilos por defecto de las listas */
+ul,
+ol {
+   list-style: none;
+}
+
+/* Elimina subrayado y color azul de los links */
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+/* Hace que las imágenes no se salgan de sus contenedores */
+img,
+picture,
+video,
+canvas,
+svg {
+   display: block;
+   max-width: 100%;
+}
+
+/* Evita que el texto sobresalga */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   overflow-wrap: break-word;
+}
+
+/* Crea un root stacking context */
+#root,
+#app {
+   isolation: isolate;
+}
