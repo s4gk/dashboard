@@ -9,6 +9,5 @@ interface MenuItem {
 }
 
 export interface SectionMenuProps {
-   title: string;
    items: MenuItem[];
 }

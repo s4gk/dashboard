@@ -58,6 +58,7 @@ h5,
 h6,
 p {
    overflow-wrap: break-word;
+   font-family: var(--font-family-primary);
 }
 
 /* Crea un root stacking context */

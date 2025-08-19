@@ -5,7 +5,7 @@ export const Sidebar = () => {
    return (
       <>
          {sidebar_data.map(({ section, items }) => (
-            <SectionMenu key={section} title={section} items={items} />
+            <SectionMenu key={section} items={items} />
          ))}
       </>
    );

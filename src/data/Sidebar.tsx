@@ -13,6 +13,11 @@ export const sidebar_data = [
                { title: 'Marketing', path: '/dashboard/marketing' },
             ],
          },
+         {
+            title: 'Menu',
+            icon: <DashboardIcon />,
+            path: '/dashboard'
+         }
       ],
    },
 ];

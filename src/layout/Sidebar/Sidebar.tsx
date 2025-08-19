@@ -1,10 +1,12 @@
-import { SectionMenu } from '@/features/Sidebar/SectionMenu/SectionMenu';
+
 import styles from './Sidebar.module.css';
 
 export const Sidebar = () => {
    return (
       <aside className={styles.aside}>
-         <nav></nav>
+         <nav>
+         
+         </nav>
       </aside>
    );
 };
