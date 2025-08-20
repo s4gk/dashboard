@@ -1,7 +1,7 @@
 import { sidebar_data } from '@/data/Sidebar';
 import { SectionMenu } from './SectionMenu/SectionMenu';
 
-export const Sidebar = () => {
+export const SidebarFeatures = () => {
    return (
       <>
          {sidebar_data.map(({ section, items }) => (

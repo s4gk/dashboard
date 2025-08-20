@@ -1,0 +1,14 @@
+.dropdown {
+   width: 100%;
+}
+
+.dropdown__button {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.dropdown__button_section {
+   display: flex;
+   gap: 0.5rem;
+}
