@@ -17,6 +17,15 @@ export const sidebar_data = [
             title: 'Menu',
             icon: <DashboardIcon />,
             path: '/dashboard'
+         },
+         {
+            title: 'Mahecha',
+            icon: <DashboardIcon />,
+            children: [
+               { title: 'Ecommerce', path: '/dashboard/ecommerce' },
+               { title: 'Analytics', path: '/dashboard/analytics' },
+               { title: 'Marketing', path: '/dashboard/marketing' },
+            ],
          }
       ],
    },

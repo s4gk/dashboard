@@ -1,6 +1,6 @@
 import styles from './Icons.module.css';
 
-export const ArrowUpIcon = () => {
+export const ArrowIcon = () => {
    return (
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className={styles.icon}>
          <g data-name="Layer 2">
