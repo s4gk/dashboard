@@ -9,5 +9,6 @@ interface MenuItem {
 }
 
 export interface SectionMenuProps {
+   section: string;
    items: MenuItem[];
 }

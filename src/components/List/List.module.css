@@ -1,22 +1,23 @@
 .list {
-    width: 100%;
-    padding: 0.5rem 1rem;
-    background-color: aqua;
-    border-radius: 0.3rem;
+   width: 100%;
+   padding: 0.5rem 1rem;
+   background-color: aqua;
+   border-radius: 0.3rem;
 }
 
 .list__button {
-    display: flex;
-    align-items: center;
-    gap: 0.2rem;
+   display: flex;
+   align-items: center;
+   gap: 1rem;
 }
 
 .list__button span:nth-child(1) svg {
-    width: 1.2rem;
-    height: 1.2rem;
+   width: 1.5rem;
+   height: 1.5rem;
 }
 
 .list__button span:nth-child(2) {
-    font-size: var(--font-size-md);
-    font-weight: var(--font-weight-bold);
+   font-size: var(--font-size-md);
+   font-weight: var(--font-weight-bold);
 }
+

@@ -15,7 +15,7 @@
    border: none;
    border-radius: 0.3rem;
    background-color: aqua;
-   padding: 0.5rem 1rem ;
+   padding: 0.5rem 1rem;
 }
 
 .dropdown__button_section {
@@ -42,7 +42,11 @@
 
 /* Sub Menu Section Styles */
 
-.submenu__section {
+.submenu__section_hidden {
+   display: none;
+}
+
+.submenu__section_active {
    width: 100%;
    display: flex;
    flex-direction: column;
@@ -56,3 +60,4 @@
    align-items: end;
    gap: 0.5rem;
 }
+
